@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "Introductory Message"
-layout: home
+date: 03/07/2025
 categories: [introduction]
 ---
 
