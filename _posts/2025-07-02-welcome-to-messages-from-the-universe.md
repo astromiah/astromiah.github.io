@@ -1,0 +1,1 @@
+Hello! My name is Astromiah, and I look forward to start my blog on Physics and the phenomenon of Cosmology with the Universe. Join me in my journey as I begin to share interesting articles of what I learnt from different theories including insights in some of the projects I accomplish!
