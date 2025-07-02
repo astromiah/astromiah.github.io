@@ -2,7 +2,7 @@
 title: "Messages from the Universe"
 logo:
   text: "Messages from the universe" 
-email: humairamiah1@hotmail.com
+email: 
 description: "insights, reflections and epiphanies on my journey of physics"
 baseurl: ""
 url: "https://astromiah.github.io"
@@ -14,9 +14,9 @@ markdown: kramdown
 paginate: 5
 
  
-twitter_username: ""
+twitter_username: username 
 github_username: "astromiah"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: neon
 search: true
 
 
@@ -34,6 +34,7 @@ include:
 
 author:
   name   : "Astromiah"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
   links: 
   - label: "Website"
