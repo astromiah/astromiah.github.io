@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Messages from the Universe"
+title: "Introductory Message"
 layout: post
 categories: [introduction]
 ---
