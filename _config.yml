@@ -1,17 +1,16 @@
 
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Messages from the Universe
-email:
+title: "Messages from the Universe"
+logo:
+  text: "Messages from the universe" 
+email: 
 description: "insights, reflections and epiphanies on my journey of physics"
 baseurl: ""
 url: "https://astromiah.github.io"
+
 author: 
-name: "astromiah"
+  name: "astromiah"
+  email: 
+
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 paginate: 5
@@ -35,19 +34,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 
 
 author:
