@@ -7,7 +7,6 @@ paginate: 5
 theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
 
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
