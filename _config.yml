@@ -7,9 +7,6 @@ description: "insights, reflections and epiphanies on my journey of physics"
 baseurl: ""
 url: "https://astromiah.github.io"
 repository: "astromiah.github.io"
-author: 
-  name: "astromiah"
-  email: humairamiah1@hotmail.com
 
 
 theme: minimal-mistakes-jekyll
@@ -23,7 +20,6 @@ minimal_mistakes_skin: "dark"
 search: true
 
 
-markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
