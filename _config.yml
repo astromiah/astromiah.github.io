@@ -28,16 +28,17 @@ plugins:
   - jekyll-include-cache
 
 author:
- name   : "Astromiah"
- avatar : "/assets/images/bio-photo.jpg"
- bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
- links:
-  - label: "Website"
+  name   : "Astromiah"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
+  links:
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://astromiah.github.io" 
-  - label: "GitHub"
+      url: "https://astromiah.github.io"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/astromiah"
+
 
 
 footer:
