@@ -36,7 +36,7 @@ author:
   name   : "Astromiah"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
-  links: 
+  links:
   - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://astromiah.github.io" 
