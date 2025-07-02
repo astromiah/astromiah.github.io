@@ -11,11 +11,12 @@ author:
   name: "astromiah"
   email: humairamiah1@hotmail.com
 
+
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 paginate: 5
 
-  
+ 
 twitter_username: ""
 github_username: "astromiah"
 minimal_mistakes_skin: "dark"
@@ -30,9 +31,9 @@ paginate: 4
 paginate_path: "/page:num/"
 timezone: Europe/London
 
+
 include:
   - _pages
-
 
 
 author:
@@ -56,6 +57,7 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://astromiah.github.io"
   copyright: "ⓒ 2025 Astromiah. All Rights Reserved."
+
   
 defaults:
   - scope:
@@ -68,6 +70,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   
   - scope:
       path: "_pages"
@@ -75,6 +78,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
 
 category_archive:
   type: liquid
