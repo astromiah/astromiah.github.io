@@ -1,8 +1,6 @@
 
 title: Messages from the Universe
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-"insights, reflections and epiphanies on my journey of physics"
 github_username: "Astromiah"
 minimal_mistakes_skin: default
 search: true
