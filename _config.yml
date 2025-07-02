@@ -2,34 +2,33 @@
 title: "Messages from the Universe"
 logo:
   text: "Messages from the universe" 
-email: 
+email: humairamiah1@hotmail.com
 description: "insights, reflections and epiphanies on my journey of physics"
 baseurl: ""
 url: "https://astromiah.github.io"
-
+repository: "astromiah/astromiah.github.io"
 author: 
   name: "astromiah"
-  email: 
+  email: humairamiah1@hotmail.com
 
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 paginate: 5
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+
+  
+twitter_username: ""
+github_username: "astromiah"
+minimal_mistakes_skin: "dark"
 search: true
 
-# Build settings
+
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 4
+paginate_path: "/page:num/"
+timezone: Europe/London
 
 include:
   - _pages
@@ -38,24 +37,27 @@ include:
 
 author:
   name   : "Astromiah"
-  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
-  links:
+  links: {}
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://astromiah.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/astromiah"
 
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/astromiah"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://astromiah.github.io"
+  copyright: "ⓒ 2025 Astromiah. All Rights Reserved."
+  
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -76,7 +78,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /topics/
 tag_archive:
   type: liquid
   path: /tags/
