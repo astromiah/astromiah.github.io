@@ -28,9 +28,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Astromiah"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
+ name   : "Astromiah"
+ avatar : "/assets/images/bio-photo.jpg"
+ bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
   # links:
   - label: "Website"
       icon: "fas fa-fw fa-link"
