@@ -1,36 +1,32 @@
 
-title: "Messages from the Universe"
-logo:
-  text: "Messages from the universe" 
-email: 
-description: "insights, reflections and epiphanies on my journey of physics"
-baseurl: ""
-url: "https://astromiah.github.io"
-repository: "astromiah.github.io"
-
-
-theme: minimal-mistakes-jekyll
-markdown: kramdown
-paginate: 5
-
- 
-twitter_username: username 
-github_username: "astromiah"
-minimal_mistakes_skin: neon
+title: Messages from the Universe
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+"insights, reflections and epiphanies on my journey of physics"
+github_username: "Astromiah"
+minimal_mistakes_skin: default
 search: true
 
-
+# Build settings
+markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 4
-paginate_path: "/page:num/"
-timezone: Europe/London
-
+paginate: 5
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+ - _pages
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
   name   : "Astromiah"
@@ -47,19 +43,20 @@ author:
 
 footer:
   links: 
-  - label: "GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/astromiah" 
-  - label: "Website"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://astromiah.github.io"
   copyright: "ⓒ 2025 Astromiah. All Rights Reserved."
 
   
-defaults: 
-  - scope:
-      path: ""
-      type: posts
+defaults:
+ # _posts
+ - scope:
+     path: ""
+     type: posts
     values:
       layout: single
       author_profile: true
@@ -67,15 +64,13 @@ defaults:
       comments: true
       share: true
       related: true
-
-
-  - scope:
+# _pages
+- scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-
 
 category_archive:
   type: liquid
