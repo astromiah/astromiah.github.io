@@ -2,7 +2,7 @@
  title: "Messages from the Universe"
 theme: minimal-mistakes-jekyll
 github_username: "Astromiah"
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 paginate: 5
 remote_theme: mmistakes/minimal-mistakes
