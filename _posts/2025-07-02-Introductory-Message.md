@@ -9,6 +9,6 @@ I will be sharing content ranging from interesting articles to projects that I h
 Thank you for stopping by this post, always remain curious and invite yourself to see the Universe in a new light.
 Why not join me on this journey together?
 
--Astromiah
+-Astromiah 
 
 
