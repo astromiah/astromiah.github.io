@@ -1,6 +1,6 @@
 ---
 title: "Introductory Message"
-layout: post
+layout: home
 categories: [introduction]
 ---
 
