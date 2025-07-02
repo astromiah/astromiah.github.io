@@ -35,27 +35,27 @@ include:
 author:
   name   : "Astromiah"
   bio    : "Insights, Reflections and Epiphanies on my journey through Physics"
-  links: {}
-    - label: "Website"
+  links: 
+  - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://astromiah.github.io"
-    - label: "GitHub"
+      url: "https://astromiah.github.io" 
+  - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/astromiah"
 
 
 footer:
-  links:
-    - label: "GitHub"
+  links: 
+  - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/astromiah"
-    - label: "Website"
+      url: "https://github.com/astromiah" 
+  - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://astromiah.github.io"
   copyright: "ⓒ 2025 Astromiah. All Rights Reserved."
 
   
-defaults:
+defaults: 
   - scope:
       path: ""
       type: posts
@@ -67,7 +67,7 @@ defaults:
       share: true
       related: true
 
-  
+
   - scope:
       path: "_pages"
       type: pages
