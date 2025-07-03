@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Exoplanet Composition Discovered"
 date: 2025-07-03
 categories: [cosmology, orbital-and-planetary-sciences]
